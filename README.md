@@ -12,4 +12,6 @@ Allows for picking of random topics to study and tracking of performance across 
 - Save Custom Session & Load Custom Session each save and load the session to a custom named .db file
 - Calculate Weight recalculates the values of the weights of each record; I recommend doing so after each pickRandom
 - Pick Random allows for the picking of a random record with bias of WEIGHT (equal to WEIGHT MOD / (AVG PERFORMANCE * (TIMES STUDIED + 1)) and the optional increment of TIMES STUDIED for said record
-- Subtratc Time Studied allows for the subtraction by 1 of any record for TIME STUDIED
+- Subtract Time Studied allows for the subtraction by 1 of any record for TIME STUDIED
+- Reset All subjects resets the TIME STUDIED & AVG PERFORMANCE to default values for all subjects; current default values are unable to be modified as of beta 1.1
+- Reset Average Performance resets AVG PERFORMANCE to its default value for one subject 
